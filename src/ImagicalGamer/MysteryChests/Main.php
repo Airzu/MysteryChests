@@ -57,11 +57,8 @@ class Main extends PluginBase implements Listener{
         if($inventory->contains(new Emerald(0,1))) {
         $event->setCancelled();
         $player->sendMessage(C::GREEN . "Opening a MysteryChest...");
-        sleep(1);
         $player->sendMessage(C::RED . C::BOLD . "3");
-        sleep(1);
         $player->sendMessage(C::RED . C::BOLD . "2");
-        sleep(1);
         $player->sendMessage(C::RED . C::BOLD . "1");
         $level = $player->getLevel();
         $x = $block->getX();
